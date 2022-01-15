@@ -1,28 +1,30 @@
 .cart {
-  position: fixed;
-  right: 10vw;
-  bottom: 10vw;
-  background-color: deeppink;
-  display: none;
+    position: relative;
+    right: 10vw;
+    bottom: 10vw;
+    background-color: deeppink;
+    height: 10vw;
+    width: 10vw;
+    /* display: none; */
 }
 .new {
-  color: crimson;
+    color: crimson;
 }
 
 .del {
-  text-decoration: line-through;
+    text-decoration: line-through;
 }
 
 header  {
-  background-color: mediumslateblue;
+    background-color: mediumslateblue;
 }
 /* .dropdown button {
-  border-radius: 0% !important;
+    border-radius: 0% !important;
 } */
 /* header h1 {
-  text-align: center;
+    text-align: center;
 } */
 body {
-  background-color: black;
-  /* color: cornsilk; */
+    background-color: black;
+    /* color: cornsilk; */
 }
