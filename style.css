@@ -1,3 +1,20 @@
+@media only screen and (min-width : 992px) {
+    .floatie {
+        display: block;
+        position: sticky; bottom: 10px;
+    }
+}
+@media only screen and (max-width : 991px) {
+    .floatie {
+        display: none;
+    }
+}
+
+.override::after {
+    /* border-bottom: 0 !important; */
+    content: none !important;
+}
+
 .cart {
     position: relative;
     right: 10vw;
