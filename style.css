@@ -1,3 +1,64 @@
+.xyz {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ping {
+    height: 10px;
+    width: 100px;
+    /* margin: 5px; */
+    background-color: blue;
+    /* bottom: 0; */
+    /* left: 100px; */
+    display: inline-block;
+    /* position:  absolute; */
+  }
+  .testcont {
+    position: relative;
+  }
+  .testbuttonL:hover {
+    background-color: rgba(255, 255, 255, .5);
+  }
+  .testbuttonR:hover {
+    background-color: rgba(255, 255, 255, .5);
+  }
+  .testbuttonL {
+    height: 400px;
+    width: 100px;
+    background-color: transparent;
+    position:  absolute;
+    top: 0;
+    left: 8px;
+  }
+  .testbuttonR {
+    height: 400px;
+    width: 100px;
+    background-color: transparent;
+    position:  absolute;
+    top: 0;
+    right: 8px;
+  }
+.hidable {
+    display: none;
+}
+.cnt {
+    display: flex;
+    justify-content: center;
+}
+.imgcntflex {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+/* .imgcnt {
+    display: block;
+    margin: 0 auto;
+} */
+
 @media only screen and (min-width : 992px) {
     .floatie {
         display: block;
